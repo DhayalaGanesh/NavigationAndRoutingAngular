@@ -1,0 +1,31 @@
+<h1 class="oauth">
+    <span class="oauth-mid"> DG OAuth </span>
+  </h1>
+  <div style="height: 200px;"></div>
+  
+    <div>
+        <form [formGroup]="credentials" >
+          <div class="row">
+            <div class="col-3">UserName:</div>
+            <input formControlName="name" aria-placeholder="Name" type="text" />
+          </div>
+          <br />
+      
+          <div class="row">
+            <div class="col-3">Password:</div>
+            <input formControlName="password" type="password" aria-placeholder="Password" />
+          </div>
+          <br />
+      
+          <button (click)="FormSubmit()" type="button">Submit</button>
+        </form>
+      </div>
+  
+  
+  <!-- <router-outlet></router-outlet> -->
+ 
+  
+  
+  
+  
+  
